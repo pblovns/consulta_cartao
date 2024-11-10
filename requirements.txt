@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 streamlit
-=======
-streamlit
->>>>>>> 1ddb73b9e0366e6f54ecab14cc49d273507b5742
 time
