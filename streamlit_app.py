@@ -3,7 +3,7 @@ import time
 
 st.set_page_config(page_title='Consulta de Cartão', layout="centered")
 st.html('<html lang="pt-BR"></html>')
-st.logo(image=r'images\tropa-do-7.jpg', size="large", icon_image=r'images\tropa-do-7.jpg')
+st.logo(image='tropa-do-7.jpg', size="large", icon_image='tropa-do-7.jpg')
 
 st.title('Informe os dados do seu cartão 🎭')
 st.write('Consulte seu seu cartão foi clonado!')
@@ -15,8 +15,8 @@ def resultado():
                 time.sleep(7)
             st.balloons()
             st.success(body='Tranquilo paizão, seu cartão tá seguro! 👍🏼')
-            left.image(r'images\bob-esponja-mandrake.jpg', width=220)
-            middle.image(r'images\urubu-do-pix.jpg', width=250)
+            left.image('bob-esponja-mandrake.jpg', width=220)
+            middle.image('urubu-do-pix.jpg', width=250)
 
 with st.container():
     numero_cartao = st.text_input(label='Número do Cartão:', max_chars=16)
