@@ -6,8 +6,8 @@ st.set_page_config(page_title='Consulta de Cartão', layout="centered")
 st.html('<html lang="pt-BR"></html>')
 st.logo(image=r'images\tropa-do-7.jpg', size="large", icon_image=r'images\tropa-do-7.jpg')
 
-st.title('Informe os dados do seu cartão 🎭')
-st.write('Consulte seu seu cartão foi clonado!')
+st.title('Veja se seu seu cartão foi clonado! 🎭', anchor=False)
+st.write('Informe os dados do seu cartão')
 
 def resultado():
     left, middle = st.columns(2)
